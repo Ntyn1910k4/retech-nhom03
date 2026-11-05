@@ -1,0 +1,19 @@
+# Local credentials and generated state in every directory
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+node_modules/
+.wrangler/
+.sites-runtime/
+.next/
+.vinext/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+# Keep intentionally authored configuration examples
+!*.example

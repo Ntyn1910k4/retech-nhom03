@@ -1,0 +1,52 @@
+{
+  "total": 1000,
+  "category_counts": {
+    "phone": 410,
+    "laptop": 200,
+    "tablet": 100,
+    "desktop": 130,
+    "router": 40,
+    "tv": 120
+  },
+  "year_min": 2015,
+  "year_max": 2026,
+  "year_counts": {
+    "2015": 54,
+    "2016": 52,
+    "2017": 73,
+    "2018": 83,
+    "2019": 88,
+    "2020": 94,
+    "2021": 66,
+    "2022": 45,
+    "2023": 71,
+    "2024": 77,
+    "2025": 132,
+    "2026": 165
+  },
+  "source_counts": {
+    "Apple Support": 150,
+    "CellphoneS": 29,
+    "GSMArena via foykes/gsm-arena-dataset": 381,
+    "US EPA ENERGY STAR": 400,
+    "ASUS official announcement": 4,
+    "TP-Link official announcement": 36
+  },
+  "year_basis_counts": {
+    "manufacturer_model_year": 150,
+    "retailer_specification_release_year": 12,
+    "source_released_year": 351,
+    "source_announced_year": 30,
+    "retailer_explicit_model_year": 17,
+    "market_availability_date": 400,
+    "manufacturer_announcement_year": 40
+  },
+  "models_with_source_image": 572,
+  "models_with_price_observations": 60,
+  "price_observations_matched": 76,
+  "price_observations_total": 150,
+  "missing_release_year": 0,
+  "distinct_ids": 1000,
+  "retrieved_at": "2026-11-02",
+  "dataset_sha256": "a49450ec38eb817f258a158da1ff2a38438a3962bc943098eeb9dd4e913f300d"
+}

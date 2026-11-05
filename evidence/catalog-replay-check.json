@@ -1,0 +1,8 @@
+{
+  "result": "passed",
+  "byte_identical": true,
+  "records": 1000,
+  "sha256": "a49450ec38eb817f258a158da1ff2a38438a3962bc943098eeb9dd4e913f300d",
+  "command": "python scripts/build_catalog.py --raw-dir raw --prices prices_enriched.json --output-dir replay",
+  "normalization": "Apple capacity field stops before model-description text"
+}

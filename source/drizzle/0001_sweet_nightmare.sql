@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX `orders_one_open_per_listing` ON `orders` (`listing_id`) WHERE "orders"."status" in ('pending','accepted');

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-02",
+  "commit_sha": "ceb819eadc7f8d555ecb88d3ba30f84c542bbb36",
+  "typecheck_exit_code": 0,
+  "build_exit_code": 0,
+  "acceptance_passed": 35,
+  "acceptance_failed": 0,
+  "source_integrity_checks": {
+    "catalog_count": true,
+    "distinct_ids": true,
+    "prices_count": true,
+    "valid_quote_foreign_keys": true,
+    "no_secrets_files": true,
+    "source_data_same": true,
+    "snapshot_data_same": true
+  },
+  "dataset_sha256": "a49450ec38eb817f258a158da1ff2a38438a3962bc943098eeb9dd4e913f300d",
+  "live_openai_tested": false,
+  "payments_executed": false,
+  "offline_replay_byte_identical": true,
+  "data_provenance_assertions": 1003
+}

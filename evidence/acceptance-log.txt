@@ -1,0 +1,36 @@
+PASS Danh mục có đúng 1.000 ID khác nhau và 6 nhóm
+PASS Mọi hồ sơ có nguồn và năm trong 2015–2026
+PASS Tìm đúng iPhone 16 Pro Max không trộn Pro
+PASS Lọc router và năm đúng dữ liệu
+PASS Phân trang không lặp ID
+PASS Sắp giá tăng dần và không tạo giá cho model thiếu
+PASS Tìm không có kết quả trả danh sách rỗng
+PASS Model không tồn tại trả 404
+PASS Chặn tài khoản ẩn danh truy cập dữ liệu riêng
+PASS Kiểm tra email và độ dài mật khẩu
+PASS Đăng ký ba tài khoản kiểm thử biệt lập
+PASS Mật khẩu được băm và session lưu SHA256
+PASS Email trùng bị từ chối 409
+PASS Đăng nhập sai trả 401, đúng cấp phiên
+PASS Chặn yêu cầu ghi khác origin
+PASS Người dùng thường không có quyền quản trị
+PASS Chặn mã quản trị sai, chấp nhận mã máy chủ đúng
+PASS Lưu thiết bị bền vững và không nhân đôi
+PASS Từ chối tin đăng thiếu mô tả hoặc giá âm
+PASS Tin mới chờ duyệt, không tự xuất hiện ở chợ
+PASS Chặn sửa tin không thuộc sở hữu
+PASS Quản trị duyệt tin và công bố vào chợ
+PASS Không cho tự mua tin đang bán của mình
+PASS Gửi yêu cầu mua và giữ chỗ nguyên tử
+PASS Người bán xác nhận rồi đánh dấu hoàn tất
+PASS Upload chặn ảnh giả magic bytes
+PASS Upload PNG hợp lệ và tải lại từ R2
+PASS Chặn tham chiếu ảnh thuộc tài khoản khác
+PASS Định giá dựa trên quan sát thật và lưu lịch sử
+PASS Model không có giá trả insufficient_data
+PASS Không định giá khi còn nhiều cấu hình chưa chọn
+PASS Chặn tình trạng, pin và chi phí không hợp lệ
+PASS Trợ lý offline ghi đúng chế độ dữ liệu
+PASS Nhật ký quản trị có thao tác thật
+PASS Đăng xuất thu hồi phiên
+{"total":35,"passed":35,"failed":0}

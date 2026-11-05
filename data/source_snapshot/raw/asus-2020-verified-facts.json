@@ -1,0 +1,22 @@
+{
+  "source_url": "https://www.asus.com/ca-en/news/bmnmjuc4irhbodiw/",
+  "source_name": "ASUS Canada original news",
+  "source_title": "ASUS Announces RT-AX86U and RT-AX82U Gaming Routers",
+  "retrieved_at": "2026-11-02",
+  "retrieval_method": "Official page retrieved by web search/open service; direct urllib request returned HTTP500",
+  "announcement_date": "2020-07-28",
+  "models": [
+    {
+      "model": "RT-AX86U",
+      "wifi": "Wi-Fi 6",
+      "combined_speed_mbps": 5700
+    },
+    {
+      "model": "RT-AX82U",
+      "wifi": "Wi-Fi 6",
+      "combined_speed_mbps": 5400
+    }
+  ],
+  "verification_ref": "turn19view0",
+  "note": "Structured factual source extraction, not full article reproduction."
+}

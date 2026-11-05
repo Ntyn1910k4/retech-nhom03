@@ -1,0 +1,70 @@
+{
+  "project": "ReTech AI / Nhóm 03",
+  "retrieved_at": "2026-11-02",
+  "scope": "Exactly 1,000 sourced electronic device model/SKU records dated 2015–2026; not 1,000 physical inventory units or completed transactions.",
+  "sources": [
+    {
+      "name": "Apple Support model identification articles",
+      "publisher": "Apple Inc.",
+      "source_type": "original manufacturer",
+      "urls": ["https://support.apple.com/en-us/108044", "https://support.apple.com/en-us/108043", "https://support.apple.com/en-us/102869", "https://support.apple.com/en-us/108052", "https://support.apple.com/en-us/102852", "https://support.apple.com/en-us/108054"],
+      "fields": ["model name", "model identifier", "year introduced/model year", "capacity where stated", "source image URL"],
+      "license_note": "Factual product metadata extracted with source attribution; no open-license claim for Apple text or images. Image URLs point to original manufacturer assets.",
+      "year_semantics": "Manufacturer year introduced, or explicit year in the named model generation."
+    },
+    {
+      "name": "ENERGY STAR Certified Computers V9.0",
+      "publisher": "US Environmental Protection Agency",
+      "source_type": "original certification registry",
+      "url": "https://data.energystar.gov/resource/rxdj-2c88.json?$limit=10000",
+      "landing_page": "https://data.energystar.gov/d/rxdj-2c88",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "fields": ["brand", "model number", "model name", "computer type", "processor brand", "RAM", "ports", "operating system", "market availability date", "market region"],
+      "year_semantics": "First available-on-market date in listed markets. Certification date is not used as release year.",
+      "notes": "Some records identify exact regulatory model numbers rather than consumer marketing names. Certification wildcard families are excluded. No EPA certification logo is reproduced."
+    },
+    {
+      "name": "ENERGY STAR Certified Televisions",
+      "publisher": "US Environmental Protection Agency",
+      "source_type": "original certification registry",
+      "url": "https://data.energystar.gov/resource/pd96-rr3d.json?$limit=5000",
+      "landing_page": "https://data.energystar.gov/d/pd96-rr3d",
+      "license_url": "https://edg.epa.gov/EPA_Data_License.html",
+      "fields": ["brand", "model number", "screen size", "display technology", "resolution", "ports", "market availability date", "market region"],
+      "year_semantics": "First available-on-market date in listed markets."
+    },
+    {
+      "name": "Historical GSMArena phone specifications mirror",
+      "publisher": "foykes; original factual specifications from GSMArena",
+      "source_type": "third-party retained factual dataset",
+      "url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv",
+      "download_url": "https://raw.githubusercontent.com/foykes/gsm-arena-dataset/main/gsm_arena_full_dataset.csv",
+      "snapshot_date": "2021-02-01",
+      "license_note": "The mirror does not specify an explicit redistribution license. The academic deliverable uses selected factual specification records with original attribution; it does not claim the data or source images are CC0 or independently owned.",
+      "fields": ["brand", "model name", "announced/released year", "screen", "chipset", "memory options", "battery", "OS", "image URL"],
+      "year_semantics": "Released year from Status; if not stated, announced year from Announced. The basis is explicit per row.",
+      "notes": "Historical 2021 snapshot, not evidence of 2026 inventory or market prices. Source price text remains only as historical_price_text in specs and is never used as a live price. Rumored/cancelled/coming-soon entries are excluded."
+    },
+    {
+      "name": "TP-Link and ASUS dated router/mesh launch announcements",
+      "publisher": "TP-Link; ASUS",
+      "source_type": "original manufacturer announcements",
+      "index_files": ["router-launch-index.json", "router-extra-index.json", "asus-2020-verified-facts.json"],
+      "license_note": "Selected factual model names and announcement dates are attributed to original manufacturer pages. No open license is claimed for articles or images.",
+      "year_semantics": "Announcement year, not an assumed retail availability date. Availability and specifications can differ by region.",
+      "notes": "40 explicitly named real router or mesh models. Concepts without subsequent product identity, USB/PCIe adapters and generic speed classes are excluded. Direct urllib access to the ASUS Canada 2020 article returned HTTP500; its factual model/date information was independently verified by official-page web retrieval and retained in a small factual evidence JSON."
+    },
+    {
+      "name": "CellphoneS Vietnamese product listings and technical pages",
+      "publisher": "CellphoneS",
+      "source_type": "original retailer observations",
+      "urls": ["https://cellphones.com.vn/mobile.html", "https://cellphones.com.vn/laptop.html", "https://cellphones.com.vn/tablet.html", "https://cellphones.com.vn/tivi.html", "https://cellphones.com.vn/may-tinh-de-ban.html", "https://cellphones.com.vn/thiet-bi-mang.html"],
+      "fields": ["actual product title", "asking price", "currency", "condition", "storage variant", "product URL", "image URL", "explicit launch year where stated", "technical specification labels and values"],
+      "year_semantics": "Only an explicit product model year or release date in the actual source is accepted. Unknown years are not guessed.",
+      "price_semantics": "Retailer asking/listing prices observed on 2026-11-02, not completed transaction prices, not manufacturer MSRP, and not promised future prices.",
+      "notes": "Quotes are separate rows from model identities. Storage/condition variants retain their own evidence. Manufacturer dates take precedence over an identified conflicting retailer field. No invented stock, seller identity, review count or rating is added."
+    }
+  ],
+  "field_missing_policy": "Unobserved values are null or omitted. Unknown prices remain null. No fabricated release date, current price, user rating, sales count or claimed stock is substituted.",
+  "refresh_policy": "Run original acquisition scripts and review schema/source changes before rebuilding. Regeneration is deterministic for the same retained source snapshots."
+}

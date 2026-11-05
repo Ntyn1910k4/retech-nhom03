@@ -1,0 +1,114 @@
+{
+  "executed_at": "2026-11-02T01:19:42+00:00",
+  "count": 150,
+  "checks": 21,
+  "passed": 21,
+  "failed": 0,
+  "results": [
+    {
+      "check": "exactly_150_price_observations",
+      "passed": true,
+      "detail": "150"
+    },
+    {
+      "check": "unique_record_ids",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "unique_product_urls",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "six_expected_categories",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_prices_positive_vnd",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "asking_prices_explicitly_labelled",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_product_urls_https_primary_retailer",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_prices_have_exact_literal_evidence",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_observations_have_timestamps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "no_release_year_invented_for_undated_titles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_images_sourced_https",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_phone-new",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_phone-used",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_laptop-new",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_laptop-used",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_tablet-new",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_tablet-used",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_tv-new",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_desktop-new",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "snapshot_sha256_router-new",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "all_price_cards_exist_verbatim_in_snapshots",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

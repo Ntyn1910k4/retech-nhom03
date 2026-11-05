@@ -1,0 +1,189 @@
+{
+  "started_at": "2026-11-02T07:26:52.500Z",
+  "finished_at": "2026-11-02T07:26:55.398Z",
+  "environment": "Built production Worker through Miniflare with isolated real D1 and R2. Temporary QA accounts/transactions only; no OpenAI key configured.",
+  "total": 35,
+  "passed": 35,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "Danh mục có đúng 1.000 ID khác nhau và 6 nhóm",
+      "status": "passed",
+      "duration_ms": 71
+    },
+    {
+      "name": "Mọi hồ sơ có nguồn và năm trong 2015–2026",
+      "status": "passed",
+      "duration_ms": 1
+    },
+    {
+      "name": "Tìm đúng iPhone 16 Pro Max không trộn Pro",
+      "status": "passed",
+      "duration_ms": 23
+    },
+    {
+      "name": "Lọc router và năm đúng dữ liệu",
+      "status": "passed",
+      "duration_ms": 35
+    },
+    {
+      "name": "Phân trang không lặp ID",
+      "status": "passed",
+      "duration_ms": 38
+    },
+    {
+      "name": "Sắp giá tăng dần và không tạo giá cho model thiếu",
+      "status": "passed",
+      "duration_ms": 95
+    },
+    {
+      "name": "Tìm không có kết quả trả danh sách rỗng",
+      "status": "passed",
+      "duration_ms": 26
+    },
+    {
+      "name": "Model không tồn tại trả 404",
+      "status": "passed",
+      "duration_ms": 14
+    },
+    {
+      "name": "Chặn tài khoản ẩn danh truy cập dữ liệu riêng",
+      "status": "passed",
+      "duration_ms": 53
+    },
+    {
+      "name": "Kiểm tra email và độ dài mật khẩu",
+      "status": "passed",
+      "duration_ms": 54
+    },
+    {
+      "name": "Đăng ký ba tài khoản kiểm thử biệt lập",
+      "status": "passed",
+      "duration_ms": 285
+    },
+    {
+      "name": "Mật khẩu được băm và session lưu SHA256",
+      "status": "passed",
+      "duration_ms": 93
+    },
+    {
+      "name": "Email trùng bị từ chối 409",
+      "status": "passed",
+      "duration_ms": 64
+    },
+    {
+      "name": "Đăng nhập sai trả 401, đúng cấp phiên",
+      "status": "passed",
+      "duration_ms": 244
+    },
+    {
+      "name": "Chặn yêu cầu ghi khác origin",
+      "status": "passed",
+      "duration_ms": 15
+    },
+    {
+      "name": "Người dùng thường không có quyền quản trị",
+      "status": "passed",
+      "duration_ms": 25
+    },
+    {
+      "name": "Chặn mã quản trị sai, chấp nhận mã máy chủ đúng",
+      "status": "passed",
+      "duration_ms": 59
+    },
+    {
+      "name": "Lưu thiết bị bền vững và không nhân đôi",
+      "status": "passed",
+      "duration_ms": 146
+    },
+    {
+      "name": "Từ chối tin đăng thiếu mô tả hoặc giá âm",
+      "status": "passed",
+      "duration_ms": 29
+    },
+    {
+      "name": "Tin mới chờ duyệt, không tự xuất hiện ở chợ",
+      "status": "passed",
+      "duration_ms": 55
+    },
+    {
+      "name": "Chặn sửa tin không thuộc sở hữu",
+      "status": "passed",
+      "duration_ms": 31
+    },
+    {
+      "name": "Quản trị duyệt tin và công bố vào chợ",
+      "status": "passed",
+      "duration_ms": 94
+    },
+    {
+      "name": "Không cho tự mua tin đang bán của mình",
+      "status": "passed",
+      "duration_ms": 40
+    },
+    {
+      "name": "Gửi yêu cầu mua và giữ chỗ nguyên tử",
+      "status": "passed",
+      "duration_ms": 84
+    },
+    {
+      "name": "Người bán xác nhận rồi đánh dấu hoàn tất",
+      "status": "passed",
+      "duration_ms": 181
+    },
+    {
+      "name": "Upload chặn ảnh giả magic bytes",
+      "status": "passed",
+      "duration_ms": 47
+    },
+    {
+      "name": "Upload PNG hợp lệ và tải lại từ R2",
+      "status": "passed",
+      "duration_ms": 215
+    },
+    {
+      "name": "Chặn tham chiếu ảnh thuộc tài khoản khác",
+      "status": "passed",
+      "duration_ms": 32
+    },
+    {
+      "name": "Định giá dựa trên quan sát thật và lưu lịch sử",
+      "status": "passed",
+      "duration_ms": 101
+    },
+    {
+      "name": "Model không có giá trả insufficient_data",
+      "status": "passed",
+      "duration_ms": 32
+    },
+    {
+      "name": "Không định giá khi còn nhiều cấu hình chưa chọn",
+      "status": "passed",
+      "duration_ms": 51
+    },
+    {
+      "name": "Chặn tình trạng, pin và chi phí không hợp lệ",
+      "status": "passed",
+      "duration_ms": 156
+    },
+    {
+      "name": "Trợ lý offline ghi đúng chế độ dữ liệu",
+      "status": "passed",
+      "duration_ms": 81
+    },
+    {
+      "name": "Nhật ký quản trị có thao tác thật",
+      "status": "passed",
+      "duration_ms": 111
+    },
+    {
+      "name": "Đăng xuất thu hồi phiên",
+      "status": "passed",
+      "duration_ms": 114
+    }
+  ],
+  "limits": [
+    "External OpenAI API not exercised without configured credentials.",
+    "No actual payment, shipping or completed marketplace sale is executed."
+  ]
+}

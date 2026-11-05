@@ -1,0 +1,5039 @@
+{
+  "executed_at": "2026-11-02",
+  "result": "PASS",
+  "assertions": 1003,
+  "records": 1000,
+  "category_counts": {
+    "phone": 410,
+    "laptop": 200,
+    "tablet": 100,
+    "desktop": 130,
+    "router": 40,
+    "tv": 120
+  },
+  "source_coverage_records": 1000,
+  "registry_crosschecks": 400,
+  "gsma_crosschecks": 381,
+  "models_with_price": 60,
+  "quotes_total": 150,
+  "quotes_matched": 76,
+  "sha256": "a49450ec38eb817f258a158da1ff2a38438a3962bc943098eeb9dd4e913f300d",
+  "interpretation": "Checks verify structure, provenance links, retained source consistency and price lineage. They do not measure real-world resale-price prediction error or guarantee source data is error-free.",
+  "checks": [
+    {
+      "name": "Exactly 1,000 catalog records",
+      "passed": true,
+      "detail": "1000"
+    },
+    {
+      "name": "Unique stable record IDs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Unique category/brand/name display identities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Required six categories",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "All years sourced within 2015–2026",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No exact full date after capture cutoff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Every record has original source locator",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No replacement characters in factual records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No duplicate brand case labels",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No invented rating/sales/inventory fields",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Missing prices remain null",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Every model price references a retained real quote",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Quoted amounts and currency coherent",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No negative/non-numeric observed price",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No fake release day for year-only records",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-599C6301FFDE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9F9D2E7F6209",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7E4EEC4B19EF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-56D67B2ABA8B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AF39A32F5E38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2F84A54B166B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-497713598A10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3C34CCF7EF76",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AB0854865AB9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-638A0ADDF76A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-19662D3882E9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3DA157755EC5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2F48996CD5C4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6B369C413807",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E77A2E8946CC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4E2FCD71F308",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E37325CDF612",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F6F3D5BA598B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-ED7AD2C87C6F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1933463E667D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AB708DE5B563",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AF5760384409",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FA03E84E3DE7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-19878020D74A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-04D2901B7048",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8B345ED8FB43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F29449B85A58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9A6F6C3A2B64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-11C48C691192",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C2061FF8A3DC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-DA28AE72BF61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-004A0B629292",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-305C2BD376AC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E64535986C3B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C8521F9D8456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-608B79550C92",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-66598CAF1DDE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9CC1DD283FFA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AE78A9BA0698",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-398CF5A99111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-404B1F6B2435",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B38F7D5526F2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F1B34CF3CBF6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D18604706D1F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D35582FB1037",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-55CFB7B49A90",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-536C8BC4281C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-475E4FF88B7D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-69D9560F9BC5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-008B07B78E9D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A8E70C649CFF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E1DDAAA494EC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-43BC82244C5B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A0CE7E77E091",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C2C4CEDCA6A7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-667F0D2E81B6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D9715375D56D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-01F64678CB45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-109C81C58B3B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0693659070A0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6A43245ECCA2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-17196648BC1A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-CE1E6DBC3A4C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-100B2A6397E0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-68406F95CFDA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4CC6947F36BA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3BCD9EA3D5FD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C19CA2FC59D1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-77F6BDD632B8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C623FAF08D4B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1639A41CD984",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-18B93DFEC48E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EDB0DF096D46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6F5B884F6745",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BA584EB1B6D8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-64EE96D80B16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-65624C3234D4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-432A90195BD2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-351C4754B874",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4587128A2C03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2C5AE0EB67B4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D4E755FE4C50",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BA61D6947345",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4CA7264E7406",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-583FCD6D66FA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3188CECBAAE4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FB4D58C97DFA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7D9FECBE9336",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-407E4D929FA1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3C0E518B593B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8C6805FD8CF5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-38A725AF5233",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-CFA1CDC1F5FB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6C433AE33208",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1D50ED79D4E0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-37B59F2B7D29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A5AA1909FBE9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EC6457FBE69E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9C0909439654",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BA9C4596EB17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-55A1B24D606F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D76F897AEC5A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-888B11FA2094",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-71E419A1E8CC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-64EA9524C339",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8BF6A7EB2D8A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B1263347A144",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9CDF368EED38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4B7F2C98F088",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-708217D2B503",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-34F23398CE3D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2837CA585E89",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2978BF7A28C3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5CCBFA566F04",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C4F1C4E69BE7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-99B819208369",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-80FFD234792F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-03889DF49F4F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-303B77FB0526",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E8C0B47E939E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EB1F2BED6DEA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E2D0C112FE6A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B7E3AF755A95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-71B2A5FF30DE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1EEF8199A658",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-269165AD1375",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E0FED69D4C84",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FC8C93701CF0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2D0DEB79255A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9B937302E758",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C9698735D8AB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9357E0827C86",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6AB1EC643569",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1F0AE9A67E62",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B1107BCE954A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-39A9460624DD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-40145FF41AD9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-234B785275AB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-CDCA7E5582FF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3B6DBFFBE499",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3637AF155CAD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3D5C663EFCA5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BA4049389CB1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B3628E47BEC1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8D4E4E0F2A54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D3D45043022D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8D70DF9CBC8B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F19875365293",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-643A527C10BD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0A37E584E152",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F43DCC7FCEF9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-84F8CC53ABE1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1A06BE8A71FD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6E2D13BE07C0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-52B8E5CDD69C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7131F391BAD7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7C86F7242D94",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4323567817E3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-73D56DE71A46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B57631DEE049",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-DE258D5779E6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A712368185A4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-02A3C48ED9DD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C209E2D2F1F8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AB67B86CAB00",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C7677E178B8B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A5180EB5F209",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EB2B4AC378C6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F81220F47097",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-39AD4DC720D3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B3C65234547D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-16F1BA6E954D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A636B8A0247D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A219D9C0C8B9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5B08A294938F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6BDF8A6C166C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7180F3BE5EA0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6157B3279571",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FAAC8FC5E9FF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-57A209B57734",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0E6B645D3D8F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C492851645B8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A4F033193D1C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E3A2DA7E16C9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F83F9B553F4B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A6CDA6593E62",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-891156277787",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-240B687B8CC6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4AFD3DC88112",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D4748C70160B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-068E6893EB22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E084C209DC93",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9BCA43A5024A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-56A3C570EA68",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-961F6156BA12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AB9B461D80E5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-45A1A66EE2CA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-CBB6D7B85BE4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A90EE4C87323",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F96E74059476",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-DF1FAF501759",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-802121DDFD15",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-36688D0ADAB1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D5B62E106646",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1C844077707A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E0B5FED85F9B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FBDC4FEEF880",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-55FF53EEA725",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-594CF5C921CB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7ECAC22BF6BB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4018B9A3EE08",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-139B8CC177E7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F5C67822E1B6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6859FD657651",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7CC88AB39A51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FCAFF4A317F0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2B8741A40FE9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F0E706A7BCCF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-39CF40FCBB5B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6AD6827AF633",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B5F8FDB284C3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1F688F6C9FC9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5A67B92E5800",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2ED320A9DC32",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E4FB82617DBE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-CCC76D00F9CD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-86DCA64D08AE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1D3CABB43111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-023085B47598",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-43D18214C004",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1F20237ADE00",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C951996936AC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0A43E4E905B9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4F95D8A0F8FA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B67EBBB4AA91",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7AA9F98CCAB2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B07C878250AF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8BC9EF08F511",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F1A30B8542FD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9A0890B6B914",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-632C79C94EC1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7EFBB9A671DC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F74FDE2251D1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9E5F9D8B310B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F8F40BFD4514",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6CAA5B1A880A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F8BD5902A2BF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E74509E40BE5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D2E4D1BB3B73",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-581A45A585DE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B49F4B308249",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-041F84CC227F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4D0DE2EE40D9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EB24DC4E3942",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-84C6252703E3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-88735BC7727C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-11DC0FEDF881",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-187E7EE0B9F3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FB0C3EAC1D16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4924EC697CC0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B0C0EE686A17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F232F636ACCB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3B85691E43EB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FCE6B30EC547",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C4C87E23D309",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D8F1D5B2D804",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F9141A155196",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7AB1E4F1E16C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9E702532FB41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-88B52B2BAE62",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B98C35547F79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A1E2C733362B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E7E144620565",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FC401D1D88FF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7BA385F14212",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-403DB5AB2163",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-47D75CB62F5B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7E17B7C3A84C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-33E5285197F4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BCD5C4CE2C72",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2B9617AD2644",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-402E771C372D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EC843FFF9D81",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-49FBB17D2354",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1C7016A9C29E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A87E82632E1F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8F45719A1114",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C70CFB2E8717",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-920E2AF5DF9E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-765C028A0148",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2A9CC24C2C9F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C72E0552633E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5026B4579F4D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7FF3B89092CE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D705CDF9291E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F34DCC9F13A8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E8A836278F51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4EA7C99903D7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4F89986B0DD0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F32A3A91A698",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0478E907F71D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-69DA65A763BC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A8F1C0D23B65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-35CC8105C623",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-89971C299268",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-117E6D39662B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4CEB16DAE653",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-99538A444104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-FE76BE9DB4B2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1D5A2EF2B876",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A307419E18FB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-41254D550A08",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-ED188A0087CA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-68F267F44519",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-47C5C9EA4F68",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E06B37663CD4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E317A4659E7C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-347BD86E73E1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-B2E54D73D7BD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E7015B92C6F5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9D13433EC3D6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-DCB49DC98229",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BD4E2C855EFF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-811AE529763B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-55DAB39C7CB6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-895C7FF2F0BA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-E9DCC4F49ECF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8CB973E8A1CF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A4430CDA84A1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1B16CB741C6C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-68993F77B137",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AF8B85BD1BFA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F18EA8264A29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5E583EBC2F21",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8FA78A448719",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3248BC185D38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9EBAF0B3EACD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BE2136D8A1C6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-283F1A8A2632",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-CFBACA09248A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-DFC6354489EC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D716E6D01214",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AE8672918A92",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5805826FE4D4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0B3CFE192E24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-9D9B7FF021DD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EF4A9154B28A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5192E382303D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-75FF2659C855",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-394E5B2272C2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C57311EDACAC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-106687489AB7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-02CE7EF5D127",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D1D485DC2853",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4D02C70E9AA9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-87616007A2BC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3966DEEB2E11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-144D4EAB625D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3F0B128919D1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-DF6E0A611691",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-02D465F877ED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-52854A4074F8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6456C60C5CB5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C87E1505A8EE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2B3F0D76DCF0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-99E5E29AF7A7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-6BBD983E7DB3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-BF9225056193",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1BCC0B57CF44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-EF44C92A8656",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3DCBA85B86A6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-AEB168952F86",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D7838017011B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0B0564AE9463",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-18CE942E76AC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-560C5A3CDD60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-7A86CAA2252D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-47B9862875B5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-A3E9F10A0FD4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-4732808AAF5E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-2586518AF1E4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-51F3E176FEAE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3A198482E220",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-D128A77994F7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-155B762F7AA8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F9227EF8CE2A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-85508C4802AD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-616B8BABA0A1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-789DC18CE9B3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-0153427D0F43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-22106D04C9DE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-953C38316BDE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-40FB8CB4D5D2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-59F69CE7A4B4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-1B905DCB84C8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-3EDE1F22C44B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-8BEE1FAC18CB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-F9EE36D5525D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-5F0FB0C22283",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "EPA model/date RT-C5D75B4FBC33",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5A37B03C6EE6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6DEC9F9E3FA7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FB7A8750D262",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FED3E42C6A16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E10E06BDAB65",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3BC3E7CD69F6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-511512CB6F80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7948724347C2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C9F32A1331B9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1071E1F57078",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D5F98010D01E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-EE7AA5ED2AB3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3967F8E6433B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1DEC658EA531",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FC46F3C5A4D6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-523D879DD1EE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3A63CE2B76BC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5DC5D6113518",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-17B03D10B984",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D0066A7EA84F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D6FC2AC7F466",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7C2AF3085D49",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DF09E769F75C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-BDBF68E34FF6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2815DB784A8B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3ED1FA565BC9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0AB816ABC761",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F29B4F1CB253",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-39EDF5ED574D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3333737D2B75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-26CCD638ECE5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-533A46372E0B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-65FDB3D50C43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5A8C8831E983",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-CC5CEAED0ED6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1FE227421C0D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D371EC893C85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-19131A2D9A29",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-828FE1F33B3A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B31BE74F2A8E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AF5506F2AB93",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E9C1FA44BC83",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-71650573B908",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E05FB87A7B7D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F7B805907B7E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E7AF25B6EC4C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C840C920DD53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-131C098E31CD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D5A052FE3A38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7EA25DB7B677",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-122D8C4B2C17",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-36C8966F8CFE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-435D7A72108F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E2F5127B70E4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-791DD7740DD7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4BE5069B2609",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-86E01C646E3A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-69C48AFD2C68",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-30EC15208643",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-EB604484B407",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-92A609A9BC80",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E4B96990E519",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-04D7108D0F03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-CC4D28B63EFC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3CE5F730EE47",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A0277F7EC12F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D6BA5E4D3625",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9B89D3E7409E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FFFEC7BACEA9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D16F22922855",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0F7908042CCC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-597DD730AD61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7AD7E022FF92",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-50FA333150DE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B246E930094C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-896019A78B35",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E096719A3E5C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-00F0FA068D83",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FDA9CD85029D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-ED1D512C3B44",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1492CC6BAC13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A02BC4AA5205",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3F0C998CF15F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-025DEF63AF58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B25E7FFBD511",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9948FB7AECC7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-54FDAD7DA5FE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D55C782CB9B6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-73E9A584DE75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-BF0F82C57754",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3D7D58C3C0BE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-77637FBD6EB9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DA0EB49F4D0A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-15564A14EC27",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-34440FD24EA1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D3D715FDDDEE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E6D0F9F69F6D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5FA1980B0408",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7ECF9154C6AD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-075BA8A80FAB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FD9A657E4B6F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-45337EEA8FFD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D58C1C92DC73",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AF88914F54BF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B92E4EAFFD2E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8024AC11DA1C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C50B3457A82D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-038FB74B8705",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-89223201690F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B593CF2ECABC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-79B76636ADE4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5027854E64AA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-55CA9B0C9292",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7531CCA8FF08",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-23F9F86BCA79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4C715C495D94",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FBDAB829373B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FC29C23039E9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-761A5FED3403",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4E9E523A6F48",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-37C78E1F9354",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-11A77B628D5E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-596E035A5BB0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8FE2C0DE23E0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E4F1E1114758",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E5880F0477E1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0A18F14464E0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6745DFC24D66",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4F3E0FF8CB4F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DD49D2A1745F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3352049D3B0C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-03B65AF7A60B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3A49A0819080",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D741DDC1024C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0485FE39EE46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0DD2286DE93D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-45D663BA02D7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-29DB23555A0F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1FC9152F69F1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-75272A34D501",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A05ECE02147A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-68B0106528C7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B2B58FE23E5D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-186EC5C2D7F6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E3DCD3F787B1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AA9ECA494D63",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5C73E5D42F56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1CBE3A8EA1DF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8532141B1762",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-690C6B3CCFF9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1871CC5168E7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-382E302F74C0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D3F5B7AA70B1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C8752AF8C24D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D740F1DB62B0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E5F7C620701D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-72926C74FA11",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-58C655F3736B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-801F65D0AA75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-19D14EDD10AB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DA9093835F07",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F246DC6B22E4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-70110BBBACBF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-43A7D8F56349",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C44CD0722B00",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D5A2B1171953",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-02C412B466AE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0CB7B160CFFC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6C7BBD958706",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-627C97FEC182",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-20F6CCF4DE59",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-03F6ABA699CF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-458980B9451B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4852E7D3D2B1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-EA4822C4A73D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-46B54C1E25F5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F7C14580A965",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-360A73055812",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-513DE3D653D8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-28BE08DF8D25",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-265CA9E721DF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-37DE07A526AC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F54AEFF00CCC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-CBA7639AE87B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E036BA0AB6FA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-62C57F1B534F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A997FC41B309",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DB2D586BF99F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-BC3C5DB27963",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C475B4712262",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F9117A9D4E6F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B0A26BABD638",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-989AAB62CAC7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3F8EB7BE6005",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2C511944F1D9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E4E55C22151B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7DF7B8A26774",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6FE9F6777A00",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5E9B224226B2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-BD72E5337868",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-772F4A996008",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-22F2A3031C7F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1C99B0C716FF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A953058C7C86",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D185C6C276DD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DF8938FA1F24",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D955EB2C3A86",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F5D9FE561F71",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C7EF08B14DEA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D2C7D332EE38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-55C6E3776904",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-ECC1FA9F81B0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-EAB811B3D42D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AA23DD738596",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-34250225EDC3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-56911C6759F8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8738AE9EEFEC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8967E933102B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-553802282F7B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3CC3F2503B6F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-81F17D8FC25E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7F0F8BDB1BDC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-25B0B4A8CCFF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F76EDCE12680",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5654BD49092D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-413E25D6C919",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C321B3FE79DD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5CEF28A2CD7B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E351337408AA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-287B465ED6F6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B08BA83F0012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-013B5F541E9B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-81A59207B73E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6FA2BDA6F50E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5BB14A2CA8C4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C4BDB0A2D737",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-24C0A5B39748",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2378E891E93D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DD3D33B1D442",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6C81E41171C7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7F1101CF89EA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-CCAF57F270B1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9F07C5E8F6B4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6FB31CF77B13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1094F2590317",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-946EE9BD844B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-96CB8FE2BFEA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2F899E633E74",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A0D3C4EAC16A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7741D7948939",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D069656E1BEA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-369CD1C58936",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9A45D445E686",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FD82530D5362",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-479CD5585104",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3A3ED0B05F41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-62483EF2CBBB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AB629313A1C1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-353B08C4F210",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-BB284C00EDE4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0E555E449AE3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-53D05681EC8D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8D1D775A5AD1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F18F84EA5B10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-458AADC568D3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0C15FDFAB710",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9A9A0C53002D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8A6EC3966EEA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F6B2CBFC80DF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1B890876ABFA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AFF9E5A7D40E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FBC07B52D51F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AFEF15646611",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-53DDB18E8631",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-599139C039D1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-17ED1D2D3EC0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-37FCDDA42278",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-636E6CC16A56",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-206C73718D95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F599DCEC2E54",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-62964B326DEF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-79B78DF3D852",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9BE3BE1117E6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-95256649CD2B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D4D65D3829C3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C51FAA887E8D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E3EFB75B71E7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-84B9FA1C42E0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-24A9BADEF456",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B5D6F4684AA3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DF42F7718852",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-99303C5D44A7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F766E96DFD13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-348D6C638E7B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4C4D2FF7C961",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-41314B0B8001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-6FA78B9E8B85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AE759E26AB38",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4C16B90ADE3B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D4F044FAA081",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-37AACD8F955F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-451F6993DA69",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1B64E6BEF3D2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-DB94028B1FFC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C754CEAA2080",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0988CB49D5BD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F8011D5B5898",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0DD8D8535155",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E894684C8FB6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-253D1525BB85",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F369E2281284",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0DB77AA11288",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9B5DB24DDA8D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D4DB359CA8D7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3EB6B5481E22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2207796ED02F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A181F5DCF59C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E4BABF7271B1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-5FB30F54994B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F769BB31CC0C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E59E0846041C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-EF79133ADA8A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-8D7F6ECDEB87",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-BB76C0A2EB12",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3B1C9F08939A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-0901C8757BCD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-4B1F9DF01530",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-857D83586E67",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-584D49D6643C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9FD791EE6A9B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-734B9BCD8AC6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C4B282227F9C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-165A2081D283",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2B8A4B786E0D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-726531B4657E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-68B891A982F1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2EB6A9050B2B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-F52A9B78519F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-67452639D949",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9D164C811F31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7AF26D6F15CF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3656A7B1F516",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7991EB757C16",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-BFC533ED7E9F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-54F0156CC1E0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-FA1196538483",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-56AAD3DFDF23",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-2803665DCE2B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9707A371A53D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C75156EE3BDB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C14E88A724B2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-A21A61EBF7AD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-9AD758849820",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-79FE5252C0B0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-82D42C33F02D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-489DE14C24B3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-06BE89DE7054",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C5D93D8F8B2D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-98B906ABF103",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-EA30E08F9E5F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D378962895F2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-AA3DF82B1C00",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-91C08DC386CF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-ECF6FD99D0CF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-55C364CF7C13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-92EC2B08AF7F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B695E9C37B8B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-CC05C1DAE055",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-10F9E175F012",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-1CA3D750A8DF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-3C12512754C4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-963F155E3FB1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-C9FC4A4137A8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-7B7DE1D3E6AC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-377271CBA1D2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-21CF9E91DD89",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-E9298CD0766B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-D21C35749817",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-B6B6CB9D38E7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-715DE734B01B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "GSMArena name/year RT-57F34B599A58",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-EC9E4B5290FF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-3CCF389619BF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-B669B2CB302F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-AD4D6C0843BD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E64FC6EDB2C9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-915DC7018616",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-6BA498476037",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F7F2C2876F3B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-40BDEA82A6A6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-A2C9EAB964F5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-D4C16AB604CA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-4DBF9A3B0BD1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CE3E490B03F2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-76A929DEE7C7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-7A81BF292E86",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-520D18D18FD8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CCC9F2967E31",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-A4D0B67DE1A5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-46502341ACE5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-6DF9FDE28259",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-EA88CE544808",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-10209D0E60D5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-0036314A9977",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-FB35C878C693",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-406EB4AEB513",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-D8A46572FE3C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-785299E0557E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F5ACA5DBF5E7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-1CDFE1549242",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E352C39E1870",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-3DFEA47A8073",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-45265498F02C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-C1B026EC0AE0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E577BC1A78ED",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-58CE7102E90F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-DC6E81E87BDA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-D5DEE662902B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-3336E513EB6E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F579963758A8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E9F62D0893EE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-42989899D1AA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F6F5DF67D906",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-5071BBA98274",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-BBC3F5824934",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-8EA81F5F92A0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-AB134E0EEBFD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-DA4C7A891E45",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-AF01E0B7BEAD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E86EE437AC4B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-46F67AD79E1F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-AA9433135680",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-779236BE0AAD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-5EC07F64E28A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F8C4DBABC73D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-02591BD510E2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-9E87EF5D021B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F6ADBC7C0AC8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-54E4FD14DBFE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-92ED9DE74070",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-26EB09FDCD18",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-12400F9D4EB5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CC7DAB39BEBC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-0467DF190702",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-07EAECB86111",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-36A2B294D287",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E8DDE5CDBFCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-89D7AB2556E4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-7B209A41C3AF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E66435D30BF9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-03E9FF486F97",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-B654EFA9F826",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-1107FE9E03D8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-70A91127400C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-587021D6A1FD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E44133F2F4EA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-1A280F112F08",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-71205EF050E7",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-C967A9B9237F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-751871FE30F0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-33D6E2B20B46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-12C40F0E9505",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-1366879D080E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-414D34AA584E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-BC060AAA439E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-65553533C324",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-3B12C0220E41",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-0222EC55584C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-C799751015F9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-DCC43642FB0D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-9F78CA0FB6CF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E01336B69837",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-42876E9080E9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-4B3F8B3D516A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-5518904A4998",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-427C5453F63C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-6FFE1DBF119A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-8FE413C14F06",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-0E09E02B8AF0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-28B018F0A4C8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-10D22DEDFE46",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-BA2EB9AF78F4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-9357F385AD75",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E9BC573AA63E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-22215F7DB707",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-D28D149A9FEC",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-B4E920EBBC19",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-8F21F0AE7315",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CADF8E91213D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F3C9CA65FBCE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-406700ABCA2F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-222FDA43C0A0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CA57DDF39914",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-5104C1FF4535",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CB61504E1F60",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-57E39EF2E3F1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-C82815489A30",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-71BD2EF17F64",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-5F2BD24705FF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-F8ECD7321085",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-99172732E03B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CA95B180A101",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-913B9C228969",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-B81C1E8E248C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-ABF7CFF564AD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-585C519CDE2D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-2641026A3AFD",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-EDE24D2C3C02",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-268B6F892BD5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-991DDD28F20D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-70314A9601EE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-410E1E7621BE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-13C80D8DB4DA",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-A9710D61E98B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-E9DE20965B79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-C97EEA8A73BF",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-A80059271282",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-5F89AF7BD3F2",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-6B4F4AB5E81E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-44EF6FA366CB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-36CCC85948E5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-6E80032BD64D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-910159BD6DA8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-AF3F1261887F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-25827F910046",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-854F9BA281D3",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-BE1A47529BE9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-0C55D7C15EA0",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-CC1C8AD9A858",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-91AC7FB69F4E",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Apple source section/year RT-16BF0A0CFA52",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-E70139F0CF22",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-D0FA3A882E61",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-0F1F0E2E7011",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-08572E6E7539",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-3D14759DB738",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-2C3156FD2017",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-9AFD0FE6FD13",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-BC88E38D5788",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-9BFDDFC13A94",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-1CB07CC28168",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-18E0F4FDDC53",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-1AF60B5DDA1D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-FC88D1EEB389",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-948F1EB3AA79",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-7BDDF2118E5B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-1967E35CFB0D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-7048FB14F656",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-FFDC35E94FD8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-5E80EAF573E5",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-42B9D599716F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-9B1BB4CB6E03",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-ED5D9B5677CB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-D7D5F95EB6BB",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-6B4BFBC45243",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-EBF989DFB5F9",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-A9BC336334A4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-26B102B30849",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-1C40CACD3869",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-995BDF2B9700",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-36321233231F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-5373CF1D2587",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-B429D042EF95",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-1511982F385A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-8E063AABEB6A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-8F0D8C69F929",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-62E0E1DBFC1B",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-420A37795B7D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-CAAB344231EE",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-ADA0F5415457",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Router named in original announcement RT-F8C73C625E6C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Coolpad smartphone regression",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Named Apple device families have expected categories",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-F03401238FE4",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-C47ECC10114C",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-0964D45F6A51",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-65FDB3D50C43",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-1FE227421C0D",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-A05ECE02147A",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-186EC5C2D7F6",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-E3DCD3F787B1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-DB2D586BF99F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-3CC3F2503B6F",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-9A45D445E686",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-AB629313A1C1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "Large phone manual review RT-8D1D775A5AD1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "No tablet with smartphone-sized screen under 6.5 inches",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "name": "CSV/JSON identity parity",
+      "passed": true,
+      "detail": ""
+    }
+  ]
+}

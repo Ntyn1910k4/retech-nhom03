@@ -1,0 +1,38 @@
+{
+  "executed_at": "2026-11-02T01:25:07+00:00",
+  "checks": 6,
+  "passed": 6,
+  "failed": 0,
+  "results": [
+    {
+      "check": "same_150_observations",
+      "passed": true
+    },
+    {
+      "check": "prices_and_original_provenance_unchanged",
+      "passed": true
+    },
+    {
+      "check": "all_sourced_years_2015_through_2026",
+      "passed": true
+    },
+    {
+      "check": "no_conflicting_selected_product_release_years",
+      "passed": true
+    },
+    {
+      "check": "enriched_years_have_selected_product_evidence",
+      "passed": true
+    },
+    {
+      "check": "iphone_17_pro_selected_product_year_2025",
+      "passed": true
+    }
+  ],
+  "statistics": {
+    "observations": 150,
+    "with_sourced_release_year": 51,
+    "with_selected_product_specs": 102,
+    "selected_product_pages_fetched": 103
+  }
+}

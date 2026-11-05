@@ -1,0 +1,15 @@
+{
+  "id": "appgdep_6ae83bf28aa08191af12da34a9817cac",
+  "project_id": "appgprj_6ae7e2e5e9f8819188b70e2cbaf79474",
+  "title": "ReTech — Mua bán và định giá thiết bị điện tử",
+  "version_id": "appgprj_6ae7e2e5e9f8819188b70e2cbaf79474~appgver_904d2b7b4d3c8191b06bdd8b6102e7e9",
+  "type": "publish",
+  "status": "succeeded",
+  "url": "https://retech-nhom03-2026.wildbarn8.chatgpt.site",
+  "has_mcp": false,
+  "screenshot_asset_pointer": null,
+  "provider_deployment_id": "site---6ae7e2e5e9f8819188b70e2cbaf79474",
+  "failure_message": null,
+  "env_set_revision": 0,
+  "updated_at": "2026-11-02T07:30:19.695388+00:00"
+}

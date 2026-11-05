@@ -1,0 +1,186 @@
+[
+  {
+    "file": "raw/computers-raw.json",
+    "representation": "original_machine_readable_factual_table",
+    "original_source_url": "https://data.energystar.gov/resource/rxdj-2c88.json?$limit=10000",
+    "original_sha256": "379f4def689afc39149249320c3ca6818c84c17cd0a4790dd80e1f02a8a64af4",
+    "retained_sha256": "379f4def689afc39149249320c3ca6818c84c17cd0a4790dd80e1f02a8a64af4",
+    "retained_bytes": 3707130
+  },
+  {
+    "file": "raw/tv-raw.json",
+    "representation": "original_machine_readable_factual_table",
+    "original_source_url": "https://data.energystar.gov/resource/pd96-rr3d.json?$limit=5000",
+    "original_sha256": "da53cbe3598e1711c6fe5a253d79dc79b36a75840f29e132d6fa14a07dfd81e0",
+    "retained_sha256": "da53cbe3598e1711c6fe5a253d79dc79b36a75840f29e132d6fa14a07dfd81e0",
+    "retained_bytes": 288819
+  },
+  {
+    "file": "raw/gsm-raw.csv",
+    "representation": "original_machine_readable_factual_table",
+    "original_source_url": "https://raw.githubusercontent.com/foykes/gsm-arena-dataset/main/gsm_arena_full_dataset.csv",
+    "original_sha256": "ec95d9ab10786b70c38f2c8250058ba86e4689ea82f4c04946484a8e9caadec9",
+    "retained_sha256": "ec95d9ab10786b70c38f2c8250058ba86e4689ea82f4c04946484a8e9caadec9",
+    "retained_bytes": 12249048
+  },
+  {
+    "file": "raw/apple-iphone-raw.html",
+    "representation": "minimal_factual_manufacturer_extract",
+    "original_source_url": "https://support.apple.com/en-us/108044",
+    "original_sha256": "8c2e350d147d219a22051d1069b2dc679f6b43d5c4e0c8324544d9bbcc762f21",
+    "retained_sha256": "96ba266f48e32b21debdb9eff477bb6bbf34941d41f24be4972518f5cd010678",
+    "retained_bytes": 16614
+  },
+  {
+    "file": "raw/apple-ipad-raw.html",
+    "representation": "minimal_factual_manufacturer_extract",
+    "original_source_url": "https://support.apple.com/en-us/108043",
+    "original_sha256": "2be082ce180335e1292a0d361993d16d5e070987293a5b8edff1bb05db178c5f",
+    "retained_sha256": "9658f05d85f5d736dc1916b21ba31ebf28abf8cb30227ff6a912fb64216b582c",
+    "retained_bytes": 17107
+  },
+  {
+    "file": "raw/apple-macbookair-raw.html",
+    "representation": "minimal_factual_manufacturer_extract",
+    "original_source_url": "https://support.apple.com/en-us/102869",
+    "original_sha256": "3e0ebfb0dbdb833a09ed1bccfe5542b26f6e89c7edd33e33c37ee636678cc0fb",
+    "retained_sha256": "6e32b873d363b76cbd6bb3c7fe4c2e3447cb4f6bce1affed50508a2634a9a536",
+    "retained_bytes": 6705
+  },
+  {
+    "file": "raw/apple-macbookpro-raw.html",
+    "representation": "minimal_factual_manufacturer_extract",
+    "original_source_url": "https://support.apple.com/en-us/108052",
+    "original_sha256": "add91b8bef1f9a052b177d8dae964051226fa0ebb9fa82b220d881cdc005b26a",
+    "retained_sha256": "4bdc092b407d73354938d7f4a9ffd308ceaedd34834be2ab4ee43307d117e3f6",
+    "retained_bytes": 13468
+  },
+  {
+    "file": "raw/apple-macmini-raw.html",
+    "representation": "minimal_factual_manufacturer_extract",
+    "original_source_url": "https://support.apple.com/en-us/102852",
+    "original_sha256": "4fbc303d6e3dab3dba00530e7a7cb940b36219318c8219094cb9cf0666dea868",
+    "retained_sha256": "6c451f76ae0d0d842ffaa96e4d1fc4b49a22026b379b8ce8d0dc77098d611a8b",
+    "retained_bytes": 2362
+  },
+  {
+    "file": "raw/apple-imac-raw.html",
+    "representation": "minimal_factual_manufacturer_extract",
+    "original_source_url": "https://support.apple.com/en-us/108054",
+    "original_sha256": "3470377b3d47108e0fed61e673ff90369b0ad8bb8a93cb9e2ffe7fd09989fb7c",
+    "retained_sha256": "43436b75d61790659e1dc6699ffe5b2bb913d02eb5480acfa318fa517ed0b23e",
+    "retained_bytes": 6889
+  },
+  {
+    "file": "raw/router-extra-3332-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://press.asus.com/news/press-releases/3332",
+    "original_sha256": "c9c56a8451fa7aa2374dc0070311a093b3289d03729eff42185f8c30cf90b9d7",
+    "retained_sha256": "3634eb01c500a961feda50498a44e28fce3a810f1b13778748ed7df04476726a",
+    "retained_bytes": 344
+  },
+  {
+    "file": "raw/tplink-20388-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/uk/press/news/20388/",
+    "original_sha256": "08a294e147e11da29bbc8d11ed063d4521b457afe87a625cad9ba7eaa32951f9",
+    "retained_sha256": "9faceacfaa6698be1886708511317e69451a21bb768f64ecac5f28da631ddbff",
+    "retained_bytes": 1182
+  },
+  {
+    "file": "raw/router-extra-18639-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/pk/press/news/18639/",
+    "original_sha256": "cd4a03a6e210d4c47035c4c2001aff4f425ec7e0fcf038feba7ba0682252cf7d",
+    "retained_sha256": "2528aeb222aee13fe0a7d5896e259372edc0c9a793d5b71bc5c002746569b32d",
+    "retained_bytes": 227
+  },
+  {
+    "file": "raw/tplink-21550-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/id/press/news/21550/",
+    "original_sha256": "10ed5d14ebdc3005a199bd6198465357b244f9ec1fca9e3083593827b4eb4f74",
+    "retained_sha256": "a39d25c83dec27ccde0913250235690033f95c8158fbdc456bafe3ffc26e10fa",
+    "retained_bytes": 449
+  },
+  {
+    "file": "raw/tplink-20921-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/us/press/news/20921/",
+    "original_sha256": "247207418a472a23554260ee75e9fd409fde4d7bfa06dabae8f7f67587338bee",
+    "retained_sha256": "7953120cebdeb55379524a86f517cf76df571dc9b0e165b7a25e18b78f84e521",
+    "retained_bytes": 228
+  },
+  {
+    "file": "raw/tplink-19853-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/baltic/press/news/19853/",
+    "original_sha256": "808d9f5b9c9a80dfff0ca79aa34d8c57c67448cb27212a45c6d94f475e1dbe61",
+    "retained_sha256": "210cac8f85909a20096d961ab49c913350a8c189c25ca2c8518343d0ed9ad91f",
+    "retained_bytes": 561
+  },
+  {
+    "file": "raw/tplink-20270-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/us/press/news/20270/",
+    "original_sha256": "d1ec905423f393b8ed506ba5796ea48fc0fecbdf2e761482085c15ebfbc314f7",
+    "retained_sha256": "3e65d7544938048f744a2a59887a2a18bc0a66bf965750f2a4cbefda068eacce",
+    "retained_bytes": 443
+  },
+  {
+    "file": "raw/tplink-19358-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/us/press/news/19358/",
+    "original_sha256": "1e66e72e3535e489b92017ead4ff17a4f3a4b6825f12b34519e1c06ca3649d61",
+    "retained_sha256": "82841d5a189a644f24934b6b1c16380041348e8c77b6e744684abbb7fd0cf2e9",
+    "retained_bytes": 336
+  },
+  {
+    "file": "raw/tplink-18651-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/ph/press/news/18651/",
+    "original_sha256": "fe1467943ace02a4e7a960451e82082aaefc2afe9316dd0c9d2ab9d73389e9e0",
+    "retained_sha256": "9137e9c00ea075c780192ba785f440c156eb8007f7800d41b5cd8f37f02ae20a",
+    "retained_bytes": 227
+  },
+  {
+    "file": "raw/tplink-18645-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/us/press/news/18645/",
+    "original_sha256": "56a6e65b02c821b2338530d02b832c9b3ea63d89299557c2598f9e946064805b",
+    "retained_sha256": "52c57ca019e406681c3499954b7db01705b7a0404e009d24577c78f42a463571",
+    "retained_bytes": 430
+  },
+  {
+    "file": "raw/tplink-18170-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/us/press/news/18170/",
+    "original_sha256": "c2999a50dd17df35f5f1a6f57bad01c664fd14a777cca6efbe4314d339c61d14",
+    "retained_sha256": "f0e57b33e50a9b01a08fdeed58950f721bf70f55d09c44f318708d397204b534",
+    "retained_bytes": 338
+  },
+  {
+    "file": "raw/tplink-17242-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/us/press/news/17242/",
+    "original_sha256": "e425bba92f5c9df3d6e49efea71018135d3346c15bc0173b7dcc68aa068f7e85",
+    "retained_sha256": "0270dfb62eee1e4d31ea70f30d5c6e1119566d3426e7e5d98ab63983bc998bb0",
+    "retained_bytes": 223
+  },
+  {
+    "file": "raw/tplink-16335-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/us/press/news/16335/",
+    "original_sha256": "526a9a39dc3dd004674c73b4cd31205cc35e50422af49e81e4e6059592174f8c",
+    "retained_sha256": "18036c6792668886ed7ff11610fc6b89d15d46b79546be0e478a6496a227ac9f",
+    "retained_bytes": 335
+  },
+  {
+    "file": "raw/tplink-15421-raw.html",
+    "representation": "minimal_factual_manufacturer_announcement_extract",
+    "original_source_url": "https://www.tp-link.com/kr/press/news/15421/",
+    "original_sha256": "6b6a654ea8773081359060b37a72acdc72d02a05951ed59ea8e9c302324dbc3c",
+    "retained_sha256": "0b0af2ff90b8cce486de4f6cf0f0ccd484c44d9d36f58b58e2e2cd34e058fc5d",
+    "retained_bytes": 439
+  }
+]

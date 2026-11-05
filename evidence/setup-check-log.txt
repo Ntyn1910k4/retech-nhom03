@@ -1,0 +1,100 @@
+Đã tạo mã quản trị riêng trong .dev.vars. Không chia sẻ tệp này công khai.
+
+  vinext build  (Vite 8.0.13)
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+[1/5] analyze client references...
+[2Ktransforming...✓ 235 modules transformed.
+rendering chunks...
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - rsc:virtual-client-package (71%)
+  - vinext:og-inline-fetch-assets (4%)
+  - vinext:css-data-url (3%)
+  - rsc:use-server (3%)
+  - vite-plugin-commonjs (3%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 14.99s
+[2/5] analyze server references...
+[2Ktransforming...✓ 120 modules transformed.
+rendering chunks...
+✓ built in 369ms
+[3/5] build rsc environment...
+[2Ktransforming...✓ 232 modules transformed.
+rendering chunks...
+computing gzip size...
+[33m[PLUGIN_TIMINGS] [0mYour build spent significant time in plugins. Here is a breakdown:
+  - rsc:use-client (17%)
+  - vinext:optimize-imports (17%)
+  - vinext:middleware-server-only (8%)
+  - rsc:virtual-client-package (7%)
+  - vinext:jsx-in-js (6%)
+See https://rolldown.rs/options/checks#plugintimings for more details.
+
+✓ built in 13.52s
+[4/5] build client environment...
+[2Ktransforming...✓ 1904 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 2.65s
+[5/5] build ssr environment...
+[2Ktransforming...✓ 126 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 892ms
+[0m
+  Route (app)
+  ┌ ? /          
+  └ λ /api/:path+
+
+  λ API  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+
+ ⛅️ wrangler 4.92.0
+───────────────────
+Resource location: local 
+
+Use --remote if you want to access the remote instance.
+
+Migrations to be applied:
+┌──────────────────────────┐
+│ name                     │
+├──────────────────────────┤
+│ 0000_silky_talisman.sql  │
+├──────────────────────────┤
+│ 0001_sweet_nightmare.sql │
+└──────────────────────────┘
+? About to apply 2 migration(s)
+Your database may not be available to serve requests during the migration, continue?
+🤖 Using fallback value in non-interactive context: yes
+🌀 Executing on local database DB (00000000-0000-4000-8000-000000000000) from .wrangler/state/v3/d1:
+🌀 To execute on your remote database, add a --remote flag to your wrangler command.
+🚣 10 commands executed successfully.
+┌──────────────────────────┬────────┐
+│ name                     │ status │
+├──────────────────────────┼────────┤
+│ 0000_silky_talisman.sql  │ ✅     │
+├──────────────────────────┼────────┤
+│ 0001_sweet_nightmare.sql │ 🕒️    │
+└──────────────────────────┴────────┘
+🌀 Executing on local database DB (00000000-0000-4000-8000-000000000000) from .wrangler/state/v3/d1:
+🌀 To execute on your remote database, add a --remote flag to your wrangler command.
+🚣 2 commands executed successfully.
+┌──────────────────────────┬────────┐
+│ name                     │ status │
+├──────────────────────────┼────────┤
+│ 0000_silky_talisman.sql  │ ✅     │
+├──────────────────────────┼────────┤
+│ 0001_sweet_nightmare.sql │ ✅     │
+└──────────────────────────┴────────┘

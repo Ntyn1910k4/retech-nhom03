@@ -1,0 +1,114 @@
+{
+  "count": 150,
+  "observed_at": "2026-11-02T01:13:55+00:00",
+  "by_category": {
+    "phone": 36,
+    "laptop": 30,
+    "tablet": 28,
+    "tv": 18,
+    "desktop": 18,
+    "router": 20
+  },
+  "by_condition": {
+    "new": 112,
+    "used_good": 19,
+    "activated": 12,
+    "used_scratched": 4,
+    "display": 1,
+    "warranty_replacement": 2
+  },
+  "distinct_source_product_urls": 150,
+  "currency": "VND",
+  "price_type": "retailer_asking",
+  "release_year_known": 27,
+  "sources": [
+    {
+      "key": "phone-new",
+      "url": "https://cellphones.com.vn/mobile.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/phone-new.html.gz",
+      "sha256": "8798d1ca968e7b35ec78a25757403e44f4eb6c1c83c803c041f610a40376115d",
+      "record_count": 20
+    },
+    {
+      "key": "phone-used",
+      "url": "https://cellphones.com.vn/hang-cu/dien-thoai.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/phone-used.html.gz",
+      "sha256": "78e5171183bcd55d7d7207f5bb9361e84d5bc6e37918620d9b842329b50ef3ae",
+      "record_count": 16
+    },
+    {
+      "key": "laptop-new",
+      "url": "https://cellphones.com.vn/laptop.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/laptop-new.html.gz",
+      "sha256": "85fc96f0285b85d41cbf18e4b3f9ac34454be1c7c56b95f631cb50b77cbbd93b",
+      "record_count": 20
+    },
+    {
+      "key": "laptop-used",
+      "url": "https://cellphones.com.vn/hang-cu/laptop.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/laptop-used.html.gz",
+      "sha256": "57b6998497218de7bd45d65a4785d24fd288b1d3739fb108caebbd5cfe4ef8c7",
+      "record_count": 10
+    },
+    {
+      "key": "tablet-new",
+      "url": "https://cellphones.com.vn/tablet.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/tablet-new.html.gz",
+      "sha256": "9a367ebee0f7d09797e7932c5aa4ff6b5320729207e9c6bbac953d1d065ecce1",
+      "record_count": 16
+    },
+    {
+      "key": "tablet-used",
+      "url": "https://cellphones.com.vn/hang-cu/ipad.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/tablet-used.html.gz",
+      "sha256": "d6b43327b5e80ee338fcdebfcf07908ddb48a0ab1755363f5b16739268475339",
+      "record_count": 12
+    },
+    {
+      "key": "tv-new",
+      "url": "https://cellphones.com.vn/tivi.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/tv-new.html.gz",
+      "sha256": "3065bfa4a3133230de1e3286f492855eab52a6813ec05e56349e24a57095aedc",
+      "record_count": 18
+    },
+    {
+      "key": "desktop-new",
+      "url": "https://cellphones.com.vn/may-tinh-de-ban.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/desktop-new.html.gz",
+      "sha256": "852c2c7018d3a87eb95f8af2ade8ad0c41a55aff0b99673497ac4246b885f2cf",
+      "record_count": 18
+    },
+    {
+      "key": "router-new",
+      "url": "https://cellphones.com.vn/phu-kien/thiet-bi-mang/thiet-bi-phat-song-wifi/router-wifi.html",
+      "observed_at": "2026-11-02T01:13:55+00:00",
+      "http_status": 200,
+      "snapshot": "source_snapshots/router-new.html.gz",
+      "sha256": "70d8323f3dab1c36265446e507f120118c0fe2d999fc93619632e75fd42ce6ae",
+      "record_count": 20
+    }
+  ],
+  "limitations": [
+    "Advertised retailer asking prices, not completed transactions.",
+    "Displayed prices may change after the observation date and can depend on store, stock and purchase conditions.",
+    "Only years explicitly included in product titles are captured; no year inferred from CPU generation or model numbering.",
+    "One retailer source; condition labels follow the retailer and are not an independent physical inspection.",
+    "Raw HTML snapshots and exact card excerpts are included for reproducibility and audit."
+  ]
+}

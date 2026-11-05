@@ -1,0 +1,109 @@
+{
+  "executed_at": "2026-11-02",
+  "result": "PASS",
+  "category_counts": {
+    "phone": 410,
+    "laptop": 200,
+    "tablet": 100,
+    "desktop": 130,
+    "router": 40,
+    "tv": 120
+  },
+  "small_tablet_flags": [],
+  "large_phone_manual_reviews": [
+    {
+      "id": "RT-F03401238FE4",
+      "name": "Samsung Galaxy S26 Ultra 5G 12GB 256GB",
+      "display_inches": 6.9,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s26-ultra.html"
+    },
+    {
+      "id": "RT-C47ECC10114C",
+      "name": "Samsung Galaxy S25 Ultra 5G 12GB 512GB",
+      "display_inches": 6.9,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://cellphones.com.vn/dien-thoai-samsung-galaxy-s25-ultra-5g-512gb-cu-dep.html"
+    },
+    {
+      "id": "RT-0964D45F6A51",
+      "name": "Xiaomi POCO F9 Ultra 5G 12GB 256GB",
+      "display_inches": 6.9,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://cellphones.com.vn/dien-thoai-xiaomi-poco-f9-ultra.html"
+    },
+    {
+      "id": "RT-65FDB3D50C43",
+      "name": "Xiaomi Mi 11",
+      "display_inches": 6.81,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L5130"
+    },
+    {
+      "id": "RT-1FE227421C0D",
+      "name": "Xiaomi Black Shark 3 Pro",
+      "display_inches": 7.1,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L5177"
+    },
+    {
+      "id": "RT-A05ECE02147A",
+      "name": "vivo NEX 3S 5G",
+      "display_inches": 6.89,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L8742"
+    },
+    {
+      "id": "RT-186EC5C2D7F6",
+      "name": "vivo NEX 3",
+      "display_inches": 6.89,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L8767"
+    },
+    {
+      "id": "RT-E3DCD3F787B1",
+      "name": "vivo NEX 3 5G",
+      "display_inches": 6.89,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L8766"
+    },
+    {
+      "id": "RT-DB2D586BF99F",
+      "name": "Motorola Moto G Stylus (2021)",
+      "display_inches": 6.8,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L5340"
+    },
+    {
+      "id": "RT-3CC3F2503B6F",
+      "name": "Lenovo K12 Pro",
+      "display_inches": 6.8,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L1481"
+    },
+    {
+      "id": "RT-9A45D445E686",
+      "name": "Microsoft Surface Duo",
+      "display_inches": 8.1,
+      "reviewed_as": "dual-screen mobile phone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L6015"
+    },
+    {
+      "id": "RT-AB629313A1C1",
+      "name": "Infinix Hot 10 Play",
+      "display_inches": 6.82,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L321"
+    },
+    {
+      "id": "RT-8D1D775A5AD1",
+      "name": "HTC U20 5G",
+      "display_inches": 6.8,
+      "reviewed_as": "large-screen smartphone",
+      "source_url": "https://github.com/foykes/gsm-arena-dataset/blob/main/gsm_arena_full_dataset.csv#L8411"
+    }
+  ],
+  "known_regression": "Substring pad in Coolpad must not classify as tablet; fixed in final builder.",
+  "epa_semantics": "laptop/desktop/tablet follow original type field; TVs follow original television registry.",
+  "date_semantics": "Every year has an explicit year_basis; no missing years or invented exact day."
+}

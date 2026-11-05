@@ -1,0 +1,12 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> retech-nhom03@1.0.0 install:ci
+> node scripts/install-ci.mjs
+
+/usr/bin/flock
+/usr/bin/timeout
+/usr/bin/curl
+/usr/bin/sha256sum
+[sites] validating writable install environment
+[sites] environment passed: HOME=/workspace/sites/retech-group03/.sites-runtime/home, cache=/workspace/sites/retech-group03/.sites-runtime/npm-cache
+[sites] image cache seed does not match this lockfile; using the network path
